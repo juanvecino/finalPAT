@@ -1,0 +1,33 @@
+<div class="contact-form-container">
+  <h2 class="contact-form-title">Contáctanos</h2>
+  <p class="contact-form-description">Estamos aquí para ayudarte. Envíanos un mensaje y nos pondremos en contacto contigo lo antes posible.</p>
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Número de teléfono:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <div class="form-group">
+      <button type="button" class="contact-form-button" id="contactar">Enviar</button>
+    </div>
+    <br>
+    <span id="error" class="hidden" >Ha ocurrido un error inesperado</span>
+    <span id="error400" class="hidden" >El mensaje ya ha sido enviado anteriormente!</span>
+    <span id="exito" class="hidden" >Mensaje enviado con exito!</span>
+    <br>
+    <br>
+  </form>
+</div>
+
+

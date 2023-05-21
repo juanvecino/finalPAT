@@ -1,0 +1,56 @@
+/* TODO: añadir estilos particulares de esta página */
+
+body {
+  background-color: #F8F8F8;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+a{
+    color: black;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="button"] {
+  background-color: #4CAF50;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+}
